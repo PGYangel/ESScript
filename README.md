@@ -5,6 +5,7 @@ es6\7\8练习
 
 ## Promise Promise对象使用
 
+## Symbol Symbol数据类型
 
 
 

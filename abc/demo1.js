@@ -20,6 +20,7 @@ var obj2={
 obj.myFun.call(obj2);   //赵四年龄 99
 obj.myFun.apply(obj2);  //赵四年龄 99
 obj.myFun.bind(obj2)(); //赵四年龄 99
+
 /*
 * 以上出了 bind 方法后面多了个 () 外 ，结果返回都一致！
 * 由此得出结论，bind 返回的是一个新的函数，你必须调用它才会被执行。
